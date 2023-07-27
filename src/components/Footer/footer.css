@@ -1,0 +1,135 @@
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.footer__top {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #2f2f2f;
+}
+
+.footer__top__title {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.footer_text {
+  color: #999999;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 20px;
+}
+
+.footer__form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.footer__form input {
+  background-color: #2f2f2f;
+  border-radius: 20px;
+  padding: 10px 25px;
+  border: 1px solid #504f4f;
+  color: #959595;
+  height: 50px;
+  width: 25%;
+
+}
+
+.footer__form input:focus {
+  outline: none;
+}
+
+.footer__form input::placeholder {
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.footer__form button {
+  background-color: #87b106;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: white;
+  font-weight: 800;
+  font-family: "Nunito Sans", sans-serif;
+  transition: all 0.2s ease-in-out;
+  height: 50px;
+  font-size: 20px;
+}
+
+.footer__form button:hover {
+  background-color: #333333;
+}
+.footer__about__logo img {
+  padding-left: 60px;
+}
+.footer_media a {
+  color: white;
+}
+
+.footer__our__company__links {
+  padding: 0;
+}
+
+.footer__our__company__links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer__our__company__links li a {
+  text-decoration: none;
+  color: #999999;
+  transition: all 0.2s linear;
+}
+
+.footer__our__company__links li a:hover {
+  padding-left: 10px;
+  color: #87b106;
+}
+
+.footer__title {
+  font-size: 18px;
+  color: white;
+}
+
+.footer_media {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  gap: 30px;
+}
+
+.footer_media li {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_media li a {
+  font-size: 20px;
+  color: black;
+}
+
+.footer_media li:hover a {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.svg-inline--fa ,svg {
+vertical-align: middle !important; 
+}
+
+.footer_media li:hover {
+  background-color: #87b106;
+}
